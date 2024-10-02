@@ -1,0 +1,79 @@
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.timer {
+    /* font-family: Montserrat; в макете написано Монсерат, но по факту в макете другой шрифт*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.timer .value {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+}
+
+#datetime-picker {
+    width: 272px;
+    height: 40px;
+    gap: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: solid 1px #808080;
+    padding: 8px;
+
+    /* font-family: Montserrat; в макете написано Монсерат, но по факту в макете другой шрифт */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+}
+#datetime-picker:hover {
+    border: solid 1px #000;
+}
+#datetime-picker.active {
+    color: #2E2F42;
+    border: solid 1px #4E75FF;
+    
+}
+#datetime-picker.disabled {
+    color: #808080;
+    border: solid 1px #808080;
+    
+}
+
+.start-btn {
+    width: 75px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 0px;
+    border-radius: 8px;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+}
+.start-btn.active {
+    color: #fff;
+    background-color: #4E75FF;
+}
+.start-btn:hover {
+    color: #fff;
+    background-color: #6C8CFF;
+}
+button.start-btn.disabled {
+    color: #989898;
+    background-color: #CFCFCF;
+}
