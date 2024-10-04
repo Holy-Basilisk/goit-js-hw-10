@@ -33,7 +33,11 @@ const options = {
           titleColor: '#fff',
           message: 'Please choose a date in the future',
           messageColor: '#fff',
+<<<<<<< HEAD
           iconUrl: 'img/error-icon.svg',
+=======
+          iconUrl: '/goit-js-hw-10/img/error-icon.svg',
+>>>>>>> 093950e3ae23770f3302e1c80d84d765f0cc6fbf
           iconColor: '#fff',
           backgroundColor: '#EF4040',
           border: '2px solid #FFBEBE',
