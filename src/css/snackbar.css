@@ -1,0 +1,64 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    display: contents;
+
+    /* font-family: Montserrat;  на самом деле в макете не монсерат */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.delay-input {
+    width: 360px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-top: 8px;
+
+    /* font-family: Montserrat;  на самом деле в макете не монсерат */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+}
+
+fieldset {
+    display: flex;
+    width: 360px;
+    height: 64px;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px 28px 8px;
+    margin-top: 16px;
+
+    text-align: left;
+}
+
+fieldset input {
+    margin: 0 8px 0 48px;
+}
+
+.submit-btn {
+    width: 360px;
+    height: 40px;
+    background: #4E75FF;
+    color: #fff;
+    margin-top: 24px;
+
+    /* font-family: Montserrat; на самом деле в макете не монсерат */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+
+
+    border: 0px;
+    border-radius: 8px;
+}

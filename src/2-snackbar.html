@@ -17,6 +17,26 @@
 
     <main>
       <div class="container">
+        <form class="form">
+          <label>
+            Delay (ms)
+            <input type="number" name="delay" class="delay-input" required />
+          </label>
+        
+          <fieldset>
+            <legend>State</legend>
+            <label>
+              <input type="radio" name="state" value="fulfilled" required />
+              Fulfilled
+            </label>
+            <label>
+              <input type="radio" name="state" value="rejected" required />
+              Rejected
+            </label>
+          </fieldset>
+        
+          <button type="submit" class="submit-btn">Create notification</button>
+        </form>
         
         <load src="./partials/back-link.html" />
       </div>
