@@ -79,7 +79,6 @@ function timerStart() {
     startBtn.disabled = true;
     startBtn.classList.add('disabled')
     startBtn.classList.remove('active')
-    showRemainingTime(userSelectedDate)
     counterId = setInterval(showRemainingTime, 1000, userSelectedDate);
 }
 
